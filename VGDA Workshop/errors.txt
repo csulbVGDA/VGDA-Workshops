@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 13: expected 'image_name_component' not found.
+    image 
+          ^
+
+Ren'Py Version: Ren'Py 8.3.4.24120703
+Sat Feb 22 13:09:47 2025
