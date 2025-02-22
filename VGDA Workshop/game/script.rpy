@@ -11,7 +11,9 @@ image bg road = "images/background.jpg"
 
 #Character Images
 image mis casual = "mitra_casual_neutral.png"
-image mel casual = "melisande_shopkeeper_neutral.png"
+image mis sad = "mitra_casual_sad.png"
+image mel casual = im.Flip("melisande_shopkeeper_neutral.png", horizontal=True)
+image mel laugh = im.Flip("melisande_shopkeeper_happy.png", horizontal=True)
 
 
 # The game starts here.
@@ -28,16 +30,46 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show mis casual at left
-    show mel casual at right
+    show mis casual at right
+    show mel casual at left
     with dissolve
 
     # These display lines of dialogue.
 
-    mis "You've created a new Ren'Py game."
+    mis "Hi Mel! How is your day?"
 
-    mel "Once you add a story, pictures, and music, you can release it to the world!"
+    show mel laugh at left
+    mel "Hi Mistra! My day is great!"
 
-    # This ends the game.
+    mis "I'm really happy to hear that!"
+
+    mis "Do you wanna get coffee?"
+
+
+    # Menu Option
+    menu:
+
+        "Yeah!":
+
+            jump yes
+
+        "No thanks":
+
+            jump no
+
+    # Yes response
+    label yes:
+
+        mel "Yes! I need coffee"
+
+        mis "Great! Let's go!"
+
+        return
+
+    # No response
+    label no:
+
+        show mis sad at right
+        mis "Oh...okay, see ya later"
 
     return

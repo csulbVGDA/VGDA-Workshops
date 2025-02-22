@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 13: expected 'image_name_component' not found.
-    image 
-          ^
+File "game/script.rpy", line 34: end of line expected.
+    show mel casual at right flip
+                             ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Sat Feb 22 13:09:47 2025
+Sat Feb 22 13:19:42 2025
