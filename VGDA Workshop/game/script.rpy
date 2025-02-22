@@ -43,6 +43,7 @@ label start:
 
     mis "I'm really happy to hear that!"
 
+    show mel casual at left
     mis "Do you wanna get coffee?"
 
 
