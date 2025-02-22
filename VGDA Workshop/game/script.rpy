@@ -10,6 +10,9 @@ define mel = Character("Melisande", image="melisande")
 image bg road = "images/background.jpg"
 
 #Character Images
+image mis casual = "mitra_casual_neutral.png"
+image mel casual = "melisande_shopkeeper_neutral.png"
+
 
 # The game starts here.
 
@@ -25,8 +28,8 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show mis at left
-    show mel at right
+    show mis casual at left
+    show mel casual at right
     with dissolve
 
     # These display lines of dialogue.

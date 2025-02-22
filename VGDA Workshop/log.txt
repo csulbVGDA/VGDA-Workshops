@@ -1,4 +1,4 @@
-2025-02-22 21:10:26 UTC
+2025-02-22 21:15:42 UTC
 macOS-15.3.1-arm64-arm-64bit
 Ren'Py 8.3.4.24120703
 
@@ -16,20 +16,20 @@ Backing up script files to '/Users/eden/Library/RenPy/backups/VGDA Workshop':
 Dump and make backups took 0.02s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.02s
+Initial gc took 0.01s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.02s
+Init translation took 0.01s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.01s
+Analyze screens took 0.00s
 Save screen analysis took 0.01s
 Prepare screens took 0.03s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.01s
 Running _start took 0.00s
-Interface start took 0.17s
+Interface start took 0.14s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1512, 982)
